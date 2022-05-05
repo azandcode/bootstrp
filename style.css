@@ -1,0 +1,24 @@
+
+body::before {
+display: block;
+content: '';
+height: 60px; 
+}
+@media (min-width: 768px){
+    .news-input{ 
+        width: 50%;
+    };
+    
+}
+.nav ul li a{
+    background-color: brown;
+    color: white;
+    border: 2px solid black;
+    border-top-left-radius: 1em 1em;
+    border-top-right-radius: 1em 1em;
+}
+nav ul li a:hover, nav ul li a:focus{
+    color:black;
+    background-color: orange;
+    font-weight: bold;
+}
